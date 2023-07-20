@@ -29,7 +29,7 @@
 int main() {
     char ID [10] ;
     float total ; 
-    float time  ; 
+    float time ; 
     float money ;
 
     printf( "Input the Employees ID(Max. 10 chars) \n" ) ;
@@ -42,9 +42,9 @@ int main() {
     scanf( "%f" , &money ) ;
 
     total = time * money ;
-    printf( "Expected Output : \n" ) ;
+    printf( "Expected Output : \n") ;
     printf( "Employees ID = %s \n" , ID ) ;
-    printf( "Salary = U$ %0.2f " , total ) ;
+    printf( "Salary = U$ %0.2f" , total ) ;
 
     return 0 ;
 }//end main function
