@@ -42,7 +42,6 @@ int main() {
     scanf( "%f" , &money ) ;
 
     total = time*money ;
-    
     printf( "Expected Output :\n") ;
     printf( "Employees ID = %s\n" , ID ) ;
     printf( "Salary = U$ %0.2f" , total ) ;
