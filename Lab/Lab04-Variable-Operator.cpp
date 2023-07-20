@@ -27,7 +27,7 @@
 */
 #include <stdio.h>
 int main() {
-    char ID [10] ;
+    char ID[10] ;
     float total ; 
     float time ; 
     float money ;
