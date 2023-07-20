@@ -14,7 +14,7 @@
         Salary = U$ 120000.00
 
     Test case:
-        Input the Employees ID(Max. 10 chars): 
+        Input the 4Employees ID(Max. 10 chars): 
             0000500349
         Input the working hrs: 
             11
@@ -26,10 +26,23 @@
         Salary = U$ 374000.00
 */
 #include <stdio.h>
-
 int main() {
+    char ID[10] ;
+    float total ; 
+    float time ;  
+    float money ;
 
-    //--| YOUR CODE HERE
+    printf( "Input the Employees ID(Max. 10 chars):\n" ) ;
+    scanf( "%s" , &ID );
+    printf( "Input the working hrs:\n" ) ;
+    scanf( "%f" , &time ) ;
+    printf( "Salary amount/hr:\n" ) ;
+    scanf( "%f" , &money ) ;
+
+    total = time*money ;
+    printf( "Expected Output:\n") ;
+    printf( "Employees ID = %s\n" , ID ) ;
+    printf( "Salary = U$ %0.2f" , total ) ;
 
     return 0 ;
 }//end main function
